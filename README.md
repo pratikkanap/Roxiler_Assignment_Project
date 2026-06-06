@@ -15,27 +15,8 @@ Library: React.js
 🏛️ Project Architecture & File Structure
 The workspace is organized into two separate modules for cleaner segregation of concerns:
 
-Roxiler_Assignment/
-├── backend/
-│   ├── config/             # Database connection configuration (Sequelize instance)
-│   ├── controllers/        # Express controller logic (auth, admin, core features)
-│   ├── middleware/         # Auth verification and role authorization middlewares
-│   ├── models/             # Sequelize database models (User, Store, Rating)
-│   ├── routes/             # Express routing definitions
-│   ├── scripts/            # CLI utilities (e.g. promoting user to Admin)
-│   ├── server.js           # Server startup script and Sequelize sync
-│   └── .env                # Server configuration and secrets (not committed)
-│
-└── frontend/
-    ├── src/
-    │   ├── components/     # Specialized Dashboards and sub-components
-    │   ├── pages/          # Full page views (Login, Signup, Dashboard Wrapper)
-    │   ├── services/       # Axios API integration layer
-    │   ├── App.jsx         # Client-side router and paths
-    │   └── main.jsx        # App mounting point
-    ├── index.html          # Shell HTML
-    └── vite.config.js      # Vite project bundler settings
-    
+<img width="840" height="521" alt="image" src="https://github.com/user-attachments/assets/ad91f588-2120-4fc1-b5fa-4a22c167f37a" />
+
 📊 Database Schema (PostgreSQL)
 
 The application models relationships between Users, Stores, and Ratings with built-in validation rules.
