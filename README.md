@@ -4,18 +4,20 @@ A premium, full-stack Store Rating and Dashboard System featuring role-based aut
 Built using a modern web architecture, this project allows users to search and rate stores, store owners to analyze reviews for their stores, and system administrators to manage the application and monitor overall analytics.
 
 🚀 Technology Stack
-Backend : Node.js, Express.js
-Database: PostgreSQL
-Security & Auth: JSON Web Tokens (JWT)
+Backend : Node.js, Express.js,
+Database: PostgreSQL,
+Security & Auth: JSON Web Tokens (JWT),
 
-Frontend
-Build Tool: Vite
+Frontend : 
+Build Tool: Vite,
 Library: React.js
 
 🏛️ Project Architecture & File Structure
 The workspace is organized into two separate modules for cleaner segregation of concerns:
 
 <img width="840" height="521" alt="image" src="https://github.com/user-attachments/assets/ad91f588-2120-4fc1-b5fa-4a22c167f37a" />
+
+
 
 📊 Database Schema (PostgreSQL)
 
