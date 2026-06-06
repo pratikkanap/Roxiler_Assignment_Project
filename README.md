@@ -15,8 +15,6 @@ Library: React.js
 🏛️ Project Architecture & File Structure
 The workspace is organized into two separate modules for cleaner segregation of concerns:
 
-text
-
 Roxiler_Assignment/
 ├── backend/
 │   ├── config/             # Database connection configuration (Sequelize instance)
@@ -24,7 +22,7 @@ Roxiler_Assignment/
 │   ├── middleware/         # Auth verification and role authorization middlewares
 │   ├── models/             # Sequelize database models (User, Store, Rating)
 │   ├── routes/             # Express routing definitions
-│   ├── scripts/            # CLI utilities 
+│   ├── scripts/            # CLI utilities (e.g. promoting user to Admin)
 │   ├── server.js           # Server startup script and Sequelize sync
 │   └── .env                # Server configuration and secrets (not committed)
 │
@@ -37,7 +35,6 @@ Roxiler_Assignment/
     │   └── main.jsx        # App mounting point
     ├── index.html          # Shell HTML
     └── vite.config.js      # Vite project bundler settings
-
     
 📊 Database Schema (PostgreSQL)
 
