@@ -27,7 +27,7 @@ The application models relationships between Users, Stores, and Ratings with bui
 id: UUID (Primary Key, Default UUIDV4)
 name: String (Validated: must be between 20 and 60 characters)
 email: String (Unique, validated email format)
-password: String (Securely hashed using bcrypt)
+password: String 
 address: String (Validated: maximum 400 characters)
 role: Enum ('Admin', 'User', 'StoreOwner')
 
