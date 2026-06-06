@@ -1,3 +1,5 @@
+------------------------------------------------------------   Roxiler Assignment Project  ------------------------------------------------------------------------
+
 Store Rating & Dashboard System
 A premium, full-stack Store Rating and Dashboard System featuring role-based authentication and authorization, search, ratings submission, and interactive dashboards for Users, Store Owners, and System Administrators.
 
